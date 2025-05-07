@@ -2,12 +2,7 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-}
-
-.introduction_content {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
+  max-width: 984px;
 }
 
 .introduction__title {
@@ -16,6 +11,7 @@
   font-size: 54px;
   line-height: 58px;
   letter-spacing: 0%;
+  max-width: 830px;
 }
 
 .introduction__pharagraph {
@@ -24,6 +20,7 @@
   font-size: 24px;
   line-height: 34px;
   letter-spacing: 0%;
+  max-width: 738px;
 }
 
 .introduction__author {
@@ -33,6 +30,7 @@
   line-height: 34px;
   letter-spacing: 0%;
   text-align: right;
+  max-width: 732px;
 }
 
 .introduction__pharagraph-size-s {
@@ -44,7 +42,36 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
+  .introduction {
+    max-width: 288px;
+    margin: 16px;
+  }
+
+  .introduction__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 1;
+  }
+
+  .introduction__pharagraph {
+    max-width: 288px;
+    font-size: 24px;
+  }
+
+  .introduction__author {
+    max-width: 288px;
+    font-size: 24px;
+  }
+
+  .introduction__pharagraph-size-s {
+    max-width: 288px;
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
+  .introduction {
+    max-width: 720px;
+    margin: 24px;
+  }
 }
