@@ -1,4 +1,4 @@
-.introduction {
+.introduction_content {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -42,7 +42,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
-  .introduction {
+  .introduction_content {
     max-width: 288px;
     margin: 16px;
   }
@@ -70,7 +70,7 @@
 }
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
-  .introduction {
+  .introduction_content {
     max-width: 720px;
     margin: 24px;
   }
