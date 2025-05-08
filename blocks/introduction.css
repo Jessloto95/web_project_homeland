@@ -1,25 +1,23 @@
-.introduction_content {
+.introduction__content {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   max-width: 984px;
 }
 
-.introduction__title {
+.introduction__content-title {
   font-family: "Inter-Black", sans-serif;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-  letter-spacing: 0%;
   max-width: 830px;
 }
 
-.introduction__pharagraph {
+.introduction__content-pharagraph {
   font-family: "Inter-regular";
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  letter-spacing: 0%;
   max-width: 738px;
 }
 
@@ -28,7 +26,6 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  letter-spacing: 0%;
   text-align: right;
   max-width: 732px;
 }
@@ -38,22 +35,21 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
-  letter-spacing: 0%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
-  .introduction_content {
+  .introduction__content {
     max-width: 288px;
     margin: 16px;
   }
 
-  .introduction__title {
+  .introduction__content-title {
     max-width: 288px;
     font-size: 32px;
     line-height: 1;
   }
 
-  .introduction__pharagraph {
+  .introduction__content-pharagraph {
     max-width: 288px;
     font-size: 24px;
   }
@@ -70,7 +66,7 @@
 }
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
-  .introduction_content {
+  .introduction__content {
     max-width: 720px;
     margin: 24px;
   }

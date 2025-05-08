@@ -21,17 +21,15 @@
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
-  letter-spacing: 0%;
   text-align: center;
   max-width: 720px;
 }
 
-.header_subheading {
+.header__subheading {
   font-family: "Inter-Regular";
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
-  letter-spacing: 0%;
   text-align: center;
   max-width: 720px;
 }
@@ -57,7 +55,7 @@
     line-height: 1;
   }
 
-  .header_subheading {
+  .header__subheading {
     max-width: 288px;
     font-size: 16px;
     line-height: 1;
@@ -75,9 +73,9 @@
     font-size: 75px;
   }
 
-  .header_subheading {
+  .header__subheading {
     max-width: 720px;
-    font-family: 30px;
+    font-size: 30px;
   }
 
   .header__content-image {
